@@ -1,0 +1,123 @@
+/* Style de la carte */
+.carte {
+  width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+
+.en-tete img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+
+
+
+/* Style de l'en-tête */
+.en-tete {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.en-tete h1, .en-tete h2 {
+  margin: 10px;
+  color: #555;
+}
+
+.en-tete h1 {
+  font-size: 36px;
+}
+
+.en-tete h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style du contenu */
+.contenu {
+  padding: 30px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience, .formation {
+  margin-bottom: 20px;
+}
+
+.experience h4, .formation h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.experience h5, .formation h5 {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.experience h6, .formation h6 {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.experience p, .formation p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #888;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec2 {
+  flex: 0 0 calc(80% - 50px);
+  background-color: #f8f8;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.carte-competences {
+  display: flex;
+  justify-content: space-between;
+}
+
+.competence {
+  flex: 0 0 calc(33.33% - 70px);
+  background-color: #f8f8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
